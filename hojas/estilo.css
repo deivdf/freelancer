@@ -80,8 +80,11 @@ body{
     width: 100%;
     height: 100%;
 }
-.contenedor-hero p{
+.contenedor-hero > p, a{
     color: var(--blanco);}
 .contenedor-hero > .p1{
     font-weight: bold;
+}
+.fot  a{
+    color: var(--negro)
 }
