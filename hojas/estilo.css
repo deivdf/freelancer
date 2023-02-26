@@ -16,6 +16,7 @@ html{
 body{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to top, #dfe9f3 0%, var(--blanco) 100%);
 }
 .titulo{
     text-align: center;
@@ -119,4 +120,32 @@ body{
 }
 .boton:hover{
     background-color: var(--secundario);
+}
+.sombra{
+    -webkit-box-shadow: -7px 11px 22px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 11px 22px -1px rgba(0,0,0,0.75);
+    box-shadow: -7px 11px 22px -1px rgba(0,0,0,0.75);
+    padding: 3rem;
+    background-color: var(--blanco);
+    border-radius: 1rem;
+}
+@media (min-width: px) {
+    
+}
+.Productos{
+    text-align: center;
+    display: grid;
+    margin: 6rem;
+}
+@media (min-width: 768px) {
+    .Productos{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+}
+.contacto{
+    background-color: var(--morado);
+    padding: 3rem;
+    color: var(--blanco);
+    text-align: center;
 }
