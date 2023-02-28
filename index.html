@@ -18,7 +18,6 @@
         <section class="nav-bg">
             <nav class="barra contenedor">
                 <a href="#">Inicio</a>
-                <a href="#work">Que hacemos</a>
                 <a href="#Productos">Productos</a>
                 <a href="#contacto">Contactos</a>
             </nav>
@@ -100,37 +99,39 @@
                             error aut sequi voluptate, sit ullam suscipit veniam unde,aliquam.</p>
                     </section>
                 </div>
-                <section class="contacto" id="contacto">
+                <section  id="contacto">
                     <h3>Contacto</h3>
-                    <form>
+                    <form class="formulario">
                         <fieldset>
-                            <legend>Contactanos llenando el formulario</legend>
-                            <div>
-                                <label>Nombre</label>
-                                <input id="nombre" type="text">
+                            <h3>Contactanos llenando el formulario</h3>
+                            <div class="contenedor-campos">
+                                <div class="campos">
+                                    <label>Nombre</label>
+                                    <input class="input-text" id="nombre" type="text">
+                                </div>
+                                <div class="campos">
+                                    <label>Apellido</label>
+                                    <input class="input-text" id="Apellido" type="text">
+                                </div>
+                                <div class="campos">
+                                    <label>Email</label>
+                                    <input class="input-text" id="Email" type="email">
+                                </div>
+                                <div class="campos">
+                                    <label>Telefono</label>
+                                    <input class="input-text" id="Telefono" type="tel">
+                                </div>
+                                <div class="campos">
+                                    <label>Asunto</label>
+                                    <input class="input-text" id="Asunto" type="text">
+                                </div>
+                                <div class="campos">
+                                    <label>Descripcion</label>
+                                    <textarea class="input-text" id="Descripcion"></textarea>
+                                </div>  
                             </div>
-                            <div>
-                                <label>Apellido</label>
-                                <input id="Apellido" type="text">
-                            </div>
-                            <div>
-                                <label>Email</label>
-                                <input id="Email" type="email">
-                            </div>
-                            <div>
-                                <label>Telefono</label>
-                                <input id="Telefono" type="tel">
-                            </div>
-                            <div>
-                                <label>Asunto</label>
-                                <input id="Asunto" type="text">
-                            </div>
-                            <div>
-                                <label>Descripcion</label>
-                                <textarea id="Descripcion"></textarea>
-                            </div>  
-                            <div>
-                                <button type="submit">Enviar</button>
+                            <div class="flex alinear-derecha">
+                                <button class="boton w-100" type="submit">Enviar</button>
                             </div>        
                         </fieldset>
                     </form>
